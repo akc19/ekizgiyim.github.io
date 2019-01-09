@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.renk{
+	background-color: #3F3F3F;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-style: inherit;
+	font-size: 36px;
+	border-radius:10px;
+	border:double;
+	border-color:#EF8C8E;
+	
+	
+}
+.renk2{
+	color: #FFFFFF;
+	font-size: 36px;
+	border-radius: 10px;
+	border: double;
+	border-color: #EF8C8E;
+}
+body{
+	margin:0;
+	padding:0;
+	}
+#menu ul{
+	list-style:none;
+	margin:0;
+	padding:0;}
+#menu li{
+	float:left;
+	position:relative;
+	width:150px;
+}
+#menu li ul{
+	display:none;
+	left:0;
+	position:absolute;
+	top:21px;
+}
+#menu ul li a{
+	background:gray;
+	border-color:red red red red;
+	border-style:solid;
+	border-width:1px;
+	color:black;
+	display:block;
+	font:bold 12px Arial,Helvetica,Sans-Serif;
+	margin:0;
+	padding:2px 3px;
+	text-decoration:none;
+	line-height:16px;
+	}
+	#menu ul li a:hover{
+		background:#FFFFFF;
+		color:#FF0000;
+		} 
+	#menu li:hover ul{
+		display:block;
+		}
+		.s{
+			margin:30px 60px 0px 200px;
+		}
+		
+		.s1{
+			margin:0px 0px 30px 03px;
+		}
+		.s2{
+			margin:0px 0px 20px 3px;
+			border-radius:10px;
+	        border:double;
+	        border-color:#F5ED79;
+		}
+		
+		.s3{
+			margin:14px 0px 20px 3px;
+		}
+		.s5{
+			border-radius:4px;
+			border:thin;
+			border-color:#EF8C8E;
+		    margin:14px 0px 20px 3px;
+			color: #FFFFFF;
+		}
+		.s6{
+			border-radius:4px;
+			border:double;
+			border-color:#999;
+		    margin:14px 0px 20px 3px;
+			color: #FFFFFF;
+		}
